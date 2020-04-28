@@ -1,3 +1,14 @@
+Respository created for card games:
+
+
+Initial==> javascript code added into client -->components -->Cards --> Cards.js
+
+
+
+
+
+
+
 # MERN-boilerplate
 
 This is a boilerplate project using the following technologies:
