@@ -5,10 +5,10 @@ import Footer from "../Footer/Footer";
 
 const App = ({ children }) => (
   <>
-    <Header />
+    {/* <Header /> */}
     <main>{children}</main>
 
-    <Footer />
+    {/* <Footer /> */}
   </>
 );
 

@@ -140,11 +140,11 @@ function splitCards4() {
 createDeck();
 shuffleDeck();
 
-if (players === 2) {
-  splitCards2();
-} else if (players === 4) {
-  splitCards4();
-}
+// if (players === 2) {
+//   splitCards2();
+// } else if (players === 4) {
+//   splitCards4();
+// }
 
 app.listen(port, "0.0.0.0", (err) => {
   if (err) {

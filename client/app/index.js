@@ -7,7 +7,7 @@ import App from "./components/App/App";
 import NotFound from "./components/App/NotFound";
 
 import Home from "./components/Home/Home";
-import Cards from "./components/Cards/Cards";
+import Cards from "./components/Cards/Home";
 
 import HelloWorld from "./components/HelloWorld/HelloWorld";
 
@@ -17,9 +17,9 @@ render(
   <Router>
     <App>
       <Switch>
-        <Route exact path="/" component={Home} />
+        {/* <Route exact path="/" component={Home} /> */}
         <Route path="/helloworld" component={HelloWorld} />
-        <Route path="/cards" component={Cards} />
+        <Route path="/" component={Cards} />
         <Route component={NotFound} />
       </Switch>
     </App>
